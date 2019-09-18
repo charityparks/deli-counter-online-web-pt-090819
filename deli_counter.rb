@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # katz_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
 def line(katz_deli)
@@ -36,6 +37,20 @@ end
 
 
 #array.join(" ") => Hello how are you
+=======
+def line(katz_deli)
+ if katz_deli.length == 0
+  puts "The line is currently empty."
+else
+  katz_deli.each_with_index do | name, index |
+    
+  end
+  puts 
+
+end
+
+
+>>>>>>> aeeee96187653d3d559b0d9446422341b8eea9fe
 
 #with some pseudo code
 #If the line is empty print "The line is currently empty."
